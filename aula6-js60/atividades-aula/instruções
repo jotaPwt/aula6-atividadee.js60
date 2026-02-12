@@ -1,0 +1,32 @@
+**ATIVIDADE 1:**
+
+***hello world -  com Javascript***
+
+console.log() -  Imprime no ambiente de teste do navegador.
+
+alert() -  Alerta no navegador.
+
+document.write  - document.write():grava conteúdo HTML para documento no navegador
+
+**ATIVIDADE 2:**
+
+Crie uma calculadora que realize as 4 operações básicas em js.
+
+- mais
+- menos
+- subtração
+- multiplicação
+
+**ATIVIDADE 3:**
+
+Atividade: Editor de Mensagem Simples
+Contexto:
+Você vai criar um mini-editor onde os usuários podem:
+
+Digitar uma mensagem
+
+Clicar em um botão para exibir na tela
+
+Escolher a cor da mensagem
+
+Limpar o conteúdo
