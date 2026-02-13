@@ -1,0 +1,43 @@
+<!-- **ATIVIDADE 3:**
+
+Atividade: Editor de Mensagem Simples
+Contexto:
+Você vai criar um mini-editor onde os usuários podem:
+
+Digitar uma mensagem
+
+Clicar em um botão para exibir na tela
+
+Escolher a cor da mensagem
+
+Limpar o conteúdo -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>at 3</title>
+</head>
+<body>
+    <section>
+
+        <H1>Mini Editor</H1>
+
+        <input type="text" id="mensagem" placeholder="digite uma mensagem">
+
+        <button  onclick="document.getElementById('resultado').innerHTML = document.getElementById('mensagem')" type="submit">Mostrar</button>
+
+        <p id="resultado"></p>
+
+        <input type="color" name="teste" id="cor">
+
+
+        <div>
+            <h3>Escolher cor da mensagem</h3>
+
+            <button onclick="document.getElementById('resultado') = document.getElementById('cor')" type="submit">Verde</button>
+        </div>
+    </section>
+</body>
+</html>

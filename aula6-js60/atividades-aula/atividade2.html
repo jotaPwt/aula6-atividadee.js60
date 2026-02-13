@@ -15,24 +15,138 @@ Crie uma calculadora que realize as 4 operações básicas em js.
     <title>Document</title>
 </head>
 <body>
-    <section>
 
-        <h2>Numero 1</h2>
-        <input type="number" name="" id="numero1">
+    <style>
+        .operacoes {
+            display: flex;
+            gap: 80px;
+            flex-direction: row;
+            align-items: center;
+         
+        }
 
-        <h2>Numero 2</h2>
-        <input type="number" name="" id="numero2">
+        .titulo {
+            font-size: 50px;
+        }
+
+        body {
+            background-color: antiquewhite;
+            text-align: center;
+        }
+
+    </style>
+
+    <h1 class="titulo">CALCULADORA SIMPLES</h1>
+
+    <section class="operacoes">
+        <section class="operacao-soma">
+
+            <h1>SOMA</h1>
+    
+            <h2>Numero 1</h2>
+            <input type="text" id="numero1">
+    
+            <p>+</p>
+    
+            <h2>Numero 2</h2>
+            <input type="text" id="numero2">
+    
+        
+    
+            <br>
+    
+            <!-- <script> if </script> -->
+    
+            
+
+            <button onclick="document.getElementById('resultado').innerHTML = Number(document.getElementById('numero1').value) + Number(document.getElementById('numero2').value)" type="submit">CALCULAR</button>
+
+
+            
+    
+            <h2>resultado</h2>
+            <p id="resultado"></p>
+        </section>
+    
+        <section class="operacao-subtracao">
+    
+            <h1>SUBTRAÇÃO</h1>
+    
+            <h2>Numero 1</h2>
+            <input type="number" name="" id="numero1-sub">
+    
+            <p>-</p>
+    
+            <h2>Numero 2</h2>
+            <input type="number" name="" id="numero2-sub">
+    
+        
+    
+            <br>
+    
+            <!-- <script> if </script> -->
+    
+            <button onclick="document.getElementById('resultado-subtracao').innerHTML =  (document.getElementById('numero1-sub').value - document.getElementById('numero2-sub').value)" type="submit">CALCULAR</button>
+    
+            <h2>resultado</h2>
+            <p id="resultado-subtracao"></p>
+        </section>
+
+        <section class="operacao-divisao">
+    
+            <h1>DIVISÃO</h1>
+    
+            <h2>Numero 1</h2>
+            <input type="number" name="" id="numero1-div">
+    
+            <p>/</p>
+    
+            <h2>Numero 2</h2>
+            <input type="number" name="" id="numero2-div">
+    
+        
+    
+            <br>
+    
+            <!-- <script> if </script> -->
+    
+            <button onclick="document.getElementById('resultado-divisao').innerHTML =  (document.getElementById('numero1-div').value / document.getElementById('numero2-div').value)" type="submit">CALCULAR</button>
+    
+            <h2>resultado</h2>
+            <p id="resultado-divisao"></p>
+        </section>
+
+        <section class="operacao-multiplicacao">
+    
+            <h1>MULTIPLICAÇÃO</h1>
+    
+            <h2>Numero 1</h2>
+            <input type="number" name="" id="numero1-mult">
+    
+            <p>x</p>
+    
+            <h2>Numero 2</h2>
+            <input type="number" name="" id="numero2-mult">
+    
+        
+    
+            <br>
+    
+            <!-- <script> if </script> -->
+    
+            <button onclick="document.getElementById('resultado-multiplicacao').innerHTML =  (document.getElementById('numero1-mult').value * document.getElementById('numero2-mult').value)" type="submit">CALCULAR</button>
+    
+            <h2>resultado</h2>
+            <p id="resultado-multiplicacao"></p>
+        </section>
+
 
     </section>
+   
 
 
-
-    <!-- <script> if </script> -->
-
-    <button onclick="document.getElementById('resultado').innerHTML =  (document.getElementById('numero1')).value + (document.getElementById('numero2')).value" type="submit">CALCULAR</button>
-
-    <h2>resultado</h2>
-    <p id="resultado"></p>
+    <br>
+    <hr>
 
 </body>
 </html>
